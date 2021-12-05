@@ -61,7 +61,6 @@ module.exports = {
                         res.status(200).json({status:1, auth:true, token:token,id_client: user._id,user_name:user.nome,user_type:user.tipo});
                     }
                 })
-               
             }
         })
     },
