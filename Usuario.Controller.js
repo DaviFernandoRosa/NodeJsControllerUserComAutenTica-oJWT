@@ -3,6 +3,7 @@ const jwt = require("jsonwebtoken");
 // const { checkout } = require('../../routes');
 const secret = "mysecret";
 
+
 module.exports = {
     async index(req,res){
         const user = await Usuario.find();
